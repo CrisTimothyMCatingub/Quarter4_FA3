@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.shape-printer, .contact-list {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.shape-printer label, .contact-list label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.shape-printer input[type="number"], .contact-list input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.shape-printer button, .contact-list button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#shapeOutput {
+    margin-top: 10px;
+    white-space: pre-wrap; 
+    font-family: monospace; 
+}
+
+#contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contactList li {
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
